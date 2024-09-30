@@ -1,0 +1,48 @@
+public Student11()
+{
+this.RollNo = 0;
+this.Name = "";
+this.Address = "";
+this.EnrollmentNo = "";
+this.ContactNo = 0;
+}
+public void RollNo(int RollNo)
+{
+	this.RollNo = RollNo;
+}
+public int getRollNo()
+{
+	return this.RollNo;
+}
+public void Name(java.lang.String Name)
+{
+	this.Name = Name;
+}
+public java.lang.String getName()
+{
+	return this.Name;
+}
+public void Address(java.lang.String Address)
+{
+	this.Address = Address;
+}
+public java.lang.String getAddress()
+{
+	return this.Address;
+}
+public void EnrollmentNo(java.lang.String EnrollmentNo)
+{
+	this.EnrollmentNo = EnrollmentNo;
+}
+public java.lang.String getEnrollmentNo()
+{
+	return this.EnrollmentNo;
+}
+public void ContactNo(int ContactNo)
+{
+	this.ContactNo = ContactNo;
+}
+public int getContactNo()
+{
+	return this.ContactNo;
+}
